@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -28,70 +28,48 @@ export default {
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo: 'Dibujo Asistido por Computadora (CAD)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Sistema',
+            titulo: 'Manejo básico de software CAD.',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
+            titulo: 'Capas y organización',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
-            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'Modelado de piezas industriales en 2D y 3D',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Edición y exportación de planos técnicos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
-            hash: 't_3_1',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 3.',
+        numero: '',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -116,11 +94,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-file-download',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -135,79 +113,161 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Wikimedia Commons. (s.f.). Espacio de trabajo en Inkscape',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/6/6e/Espacio_de_trabajo_en_Inkscape_new.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). RattleCAD 4.0.22 Free',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/c/c9/RattleCAD_4.0.22_Free.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Edit layer set',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/1/1e/Edit_layer_set.jpg',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Sealed airfoil polygon',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/8/88/Sealed_airfoil_polygon.jpg',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). KiCad 3D with IDF',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/d/d4/KiCad_3D_with_IDF.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). FreeCAD PartDesign Sketch',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/a/a8/FreeCAD_PartDesign_Sketch.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Bath Interferometer CAD model',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bath_Interferometer_CAD_model.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). CAD Modeling',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/f/f4/CAD_Modeling.gif',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Heart model',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Heart_model.jpg/640px-Heart_model.jpg',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Car model',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Car_model.jpg/640px-Car_model.jpg',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Fillet wall',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Fillet_wall.png/640px-Fillet_wall.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). InteriCAD T6 toolbar',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/8/85/InteriCAD_T6_toolbar3.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Scaled car',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/6/6b/Scaled_car.jpg',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). HecRas XYZPlot',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/HecRasXYZPlot.png/640px-HecRasXYZPlot.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). O-Ring CAD-Skizze',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/c/c7/O-Ring_CAD-Skizze.jpg',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). InteriCAD T6 export to text file',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/8/84/InteriCADT6_export_to_text_file2.png',
+    },
+    {
+      referencia: 'Wikimedia Commons. (s.f.). Construction drawing autocad',
+      link:
+        'https://upload.wikimedia.org/wikipedia/commons/6/68/Construction_drawing_autocad.jpg',
     },
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Bloques',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'conjuntos de elementos reutilizables, como puertas o ventanas en arquitectura, que pueden insertarse y editarse en distintos proyectos.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'CAD (Computer-Aided Design)',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'tecnología de diseño asistido por computadora que permite crear, modificar, analizar y optimizar diseños a través de software.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Capas',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'herramienta de organización en CAD que permite gestionar diferentes partes de un diseño, facilitando la edición y visualización de componentes específicos.',
     },
     {
-      termino: 'Constante',
+      termino: 'Cotas (Dimensions)',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'herramienta para agregar medidas y especificaciones directamente en el diseño, asegurando que cada parte del proyecto tenga las dimensiones correctas.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Dibujo y Modelado en 2D y 3D',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'característica de CAD que permite trabajar en dos y tres dimensiones, donde se crean planos o modelos tridimensionales visualizables desde diferentes ángulos.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Escalas',
+      significado:
+        'proporción de representación del diseño en CAD, como 1:1 para diseños a tamaño real o escalas específicas para planos arquitectónicos.',
     },
     {
-      termino: 'Identificador',
+      termino: 'Exportación',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'proceso de guardar un archivo CAD en diferentes formatos (como PDF, DWG, DXF) para impresión, presentación o uso en otros software.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Extrusión',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'herramienta en modelado 3D que convierte un perfil 2D en un objeto tridimensional extendiéndolo a lo largo de una longitud específica.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Fillets y Chamfers',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'herramientas de modelado que suavizan (fillets) o angulan (chamfers) los bordes de un diseño, aplicando acabados específicos.',
     },
     {
-      termino: 'Programa',
+      termino: 'Interoperabilidad',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
+        'posibilidad de CAD de exportar e intercambiar archivos en varios formatos para facilitar la colaboración e integración con otras tecnologías.',
     },
     {
-      termino: 'Pseudocódigo',
+      termino: 'Precisión y escalabilidad',
       significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
+        'capacidad de trabajar con alta precisión en CAD, desde pequeñas piezas hasta grandes estructuras, ajustando la escala del diseño según el proyecto.',
     },
     {
-      termino: 'Secuencia',
+      termino: 'Renderizado',
       significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
+        'técnica de visualización que crea vistas más realistas del diseño en 3D, aplicando materiales y texturas para una mejor presentación.',
     },
     {
-      termino: 'Sistema',
+      termino: 'Revolución',
       significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
+        'herramienta de modelado 3D que gira un perfil 2D alrededor de un eje para crear objetos simétricos, como ejes o discos.',
     },
     {
-      termino: 'Variable',
+      termino: 'Simulación y análisis',
       significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'función avanzada de algunos programas CAD que permite realizar simulaciones de comportamiento y análisis de propiedades como resistencia y durabilidad.',
     },
   ],
   complementario: [],

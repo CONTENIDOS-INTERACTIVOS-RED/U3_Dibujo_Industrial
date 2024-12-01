@@ -20,11 +20,11 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
+              p.home-main-title UNIDAD 3
+              h1.home-title.mb-4.text-uppercase Dibujo Asistido por Computadora (CAD)
+              p.descripcion.mb-4 Las herramientas básicas en CAD, como líneas, círculos, arcos, y polilíneas, permiten crear contornos y formas geométricas esenciales en el diseño. Herramientas de modificación, como copiar, pegar, escalar y rotar, facilitan la edición. La organización con capas y bloques optimiza el manejo de elementos, mientras que las cotas y escalas aseguran precisión. Finalmente, las opciones de visualización y exportación en 2D y 3D permiten compartir y revisar el diseño con facilidad.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4 #[strong Domina cada herramienta y lleva tus ideas a un nuevo nivel de precisión y creatividad.]
 
 
               .button-container.mt-auto
@@ -67,7 +67,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-primario
+    color: $color-institucional
   .home-content
     background-color: white
   .info-section

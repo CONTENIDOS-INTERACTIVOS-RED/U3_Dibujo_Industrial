@@ -14,12 +14,14 @@
 
 .bg-color
   &-1
-    background-color: #E4FEFE
+    background-color: #FDF9F3
   &-2
-    background-color: #E8EEFD
+    background-color: #E6F0F6
   &-3
-    background-color: #FFF8D5
-
+    background-color: #177AAE
+    color: #fff !important
+  &-4
+    background-color: #E6F0F6
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -44,7 +46,7 @@
     background-position: top
   &-2
     background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-position: top
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -85,15 +87,15 @@ $custom-card-img-height: 322px
     object-fit: cover
 
 .acordion__header
-  background-color: #F0E9F6 !important
+  background-color: lighten($color-terciario, 30%) !important
 
 .acordion__header--active
-  background-color: #7F35AB !important
+  background-color: $color-terciario !important
   h4, i
-    color: #fff !important
+    color: #000 !important
 
 .acordion__contenido
-  background-color: #F0E9F6!important
+  background-color: lighten($color-terciario, 25%) !important
 
 
 .anexo__texto
@@ -147,8 +149,11 @@ $custom-card-img-height: 322px
   background-color: #FDF9F3
 
 .material-complementario
+  p,a
+    font-size: 1rem !important
   a
     text-decoration: none
+    color: $color-sistema-texto
 
 .img-infografica
   background-color: transparent
@@ -181,3 +186,9 @@ $custom-card-img-height: 322px
 
   span
     font-size: 0.85em
+
+.tabs-content
+  background-color: #E6F0F6 !important
+
+figcaption
+  background: #F3F3F3
