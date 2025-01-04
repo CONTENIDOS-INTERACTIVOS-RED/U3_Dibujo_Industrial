@@ -113,89 +113,24 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Wikimedia Commons. (s.f.). Espacio de trabajo en Inkscape',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/6/6e/Espacio_de_trabajo_en_Inkscape_new.png',
+      referencia:
+        'Martínez Abad, O. & Pineda Piñón, R. (2017). Dibujo Técnico I: basado en competencias: ( ed.). Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/128621',
     },
     {
-      referencia: 'Wikimedia Commons. (s.f.). RattleCAD 4.0.22 Free',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/c/c9/RattleCAD_4.0.22_Free.png',
+      referencia:
+        'Marulanda, J. (2018). Introducción al diseño arquitectónico: ( ed.). El Cid Editor.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/36746',
     },
     {
-      referencia: 'Wikimedia Commons. (s.f.). Edit layer set',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/1/1e/Edit_layer_set.jpg',
+      referencia:
+        'Nava Vergara, E. (2012). Dibujo asistido por computadora 2D y 3D: ( ed.). Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/128623',
     },
     {
-      referencia: 'Wikimedia Commons. (s.f.). Sealed airfoil polygon',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/8/88/Sealed_airfoil_polygon.jpg',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). KiCad 3D with IDF',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/d/d4/KiCad_3D_with_IDF.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). FreeCAD PartDesign Sketch',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/a/a8/FreeCAD_PartDesign_Sketch.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). Bath Interferometer CAD model',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/f/f6/Bath_Interferometer_CAD_model.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). CAD Modeling',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/f/f4/CAD_Modeling.gif',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). Heart model',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Heart_model.jpg/640px-Heart_model.jpg',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). Car model',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Car_model.jpg/640px-Car_model.jpg',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). Fillet wall',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Fillet_wall.png/640px-Fillet_wall.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). InteriCAD T6 toolbar',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/8/85/InteriCAD_T6_toolbar3.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). Scaled car',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/6/6b/Scaled_car.jpg',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). HecRas XYZPlot',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/HecRasXYZPlot.png/640px-HecRasXYZPlot.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). O-Ring CAD-Skizze',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/c/c7/O-Ring_CAD-Skizze.jpg',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). InteriCAD T6 export to text file',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/8/84/InteriCADT6_export_to_text_file2.png',
-    },
-    {
-      referencia: 'Wikimedia Commons. (s.f.). Construction drawing autocad',
-      link:
-        'https://upload.wikimedia.org/wikipedia/commons/6/68/Construction_drawing_autocad.jpg',
+      referencia:
+        'Company Calleja, P. & González Lluch, C. (2013). CAD 3D con SolidWorks®: diseño básico: ( ed.). D - Universitat Jaume I. Servei de Comunicació i Publicacions.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/51752',
     },
   ],
   glosario: [
